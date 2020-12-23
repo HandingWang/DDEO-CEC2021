@@ -2,85 +2,48 @@
 <html>
 <head>
 
-<title>WCCI2020 Competition on Offline Data-Driven Evolutionary Optimization</title>
+<title>CEC’2021 Competition on Offline Data-Driven Evolutionary Optimization</title>
 </head>
 
 <body>
 <h1 align="center">Competition on Offline Data-Driven Evolutionary Optimization</h1>
-<h3 align="center">at 2020 IEEE World Congress on Computational Intelligence</h2>
-<h5 align="center">19 - 24th July, 2020, Glasgow (UK)</h3>
+<h3 align="center">at IEEE Congress on Evolutionary Computation</h2>
+<h5 align="center">28.06-1.07.2021 Kraków, Poland</h3>
 
 <p>Evolutionary algorithms (EAs) have been a popular optimization tool for two decades in academia. However, the industry applications of EAs to real-world optimization problems are infrequent, due to the strong assumption that objective function evaluations are straightforward and easily accessed. In fact, such objective functions may not exist, instead computationally expensive numerical simulations or costly physical experiments must be performed for evaluations. In more extreme cases, only historical data are available for performing optimization and no new data can be generated during optimization. Such problems driven by only historical data are formulated as offline data-driven optimization problems, which poses challenges to conventional EAs. Although surrogate models that approximate objective functions can be used as function evaluations in EAs to guide the search, the search accuracy is limited by the offline data and cannot be validated or enhanced by sampling new data. The research on offline data-driven evolutionary optimization has not received sufficient attention, although techniques for solving such problems are very practical. One main reason is the lack of benchmark problems that can closely reflect real-world challenges, which leads to a big gap between academia and industries.</p>
 
-<p>In this competition, there are two tracks: constrained and integer single-objective optimization. We carefully select 4 benchmark problems for each track from two real-world applications (aerodynamic optimization and software configuration tuning). The objective functions of those problems cannot be calculated analytically, but can be calculated by calling a simulation to provide true black-box evaluations for offline data sampling and the final comparison. Participants are required to find the optimal solutions of each benchmark problem based on the provided offline data. To assess the performance of compared algorithms, we will evaluate the found optimal solutions using the same simulation which generates the offline data. </p>
+<p> In this competition, there are two tracks: continuous single- and multi-objective optimization. We carefully select three benchmark problems for each track from an interesting real-world application: parameter optimization of flocking model for a swarm of robots. The optimized flocking mode is used to control a group of autonomous drones in three typical scenarios: unconfined and obstacle-free environment, confined and obstacle-free environment, tunnel environment with an obstacle. The objective functions of those problems cannot be calculated analytically, but can be calculated by calling a simulation to provide true black-box evaluations for offline data sampling and the final comparison. Participants are required to find the optimal solutions of each benchmark problem based on the provided offline data. To assess the performance of compared algorithms, we will evaluate the found optimal solutions using the same simulation which generates the offline data.</p>
 
-<p><b>Track 1: constrained single-objective optimization (aerodynamic optimization)</b>:<br>
-<b>DDCSOP1</b>: This problem is a drag minimization of an RAE 2822 transonic airfoil  subject to lift, pitching moment and sectional area constraints, which has 18 decision variables and 3 constraints (not smaller than 0).<br>
-<b>DDCSOP2</b>: This problem is a drag minimization of the wing of CRM wing-body configuration subject to pitching-moment coefficient and internal volume of the wing, which has 39 decision variables and 2 constraints (not smaller than 0).<br>
-<b>DDCSOP3</b>: This problem is a drag minimization of the wing of DLR-F4 wing configuration subject to lift coefficient and thickness of different positionis of the wing, which has 48 decision variables and 5 constraints (not smaller than 0).<br>
-<b>DDCSOP4</b>: This problem is a drag minimization of the wing of M6 wing configuration subject to lift coefficient and thickness of different positionis of the wing, which has 60 decision variables and 4 constraints (not smaller than 0).<br>
-<p><b>Track 2: integer single-objective optimization (software configuration tuning)</b>:<br>
-<b>DDISOP1</b>: This problem is a maximization of throughput, which has 10 integer decision variables.<br>
-<b>DDISOP2</b>: This problem is a maximization of requests per second, which has 20 integer decision variables.<br>
-<b>DDISOP3</b>: This problem is a minimization of latency, which has 30 integer decision variables.<br>
-<b>DDISOP4</b>: This problem is a minimization of latency, which has 40 integer decision variables.<br>
+<p><b>Track 1: continuous single-objective optimization</b>:<br>
+<b>DDSOP1</b>: This problem is a drag minimization of an RAE 2822 transonic airfoil  subject to lift, pitching moment and sectional area constraints, which has 18 decision variables and 3 constraints (not smaller than 0).<br>
+<b>DDSOP2</b>: This problem is a drag minimization of the wing of CRM wing-body configuration subject to pitching-moment coefficient and internal volume of the wing, which has 39 decision variables and 2 constraints (not smaller than 0).<br>
+<b>DDSOP3</b>: This problem is a drag minimization of the wing of DLR-F4 wing configuration subject to lift coefficient and thickness of different positionis of the wing, which has 48 decision variables and 5 constraints (not smaller than 0).<br>
+<p><b>Track 2: continuous multi-objective optimization</b>:<br>
+<b>DDMOP1</b>: This problem is a maximization of throughput, which has 10 integer decision variables.<br>
+<b>DDMOP2</b>: This problem is a maximization of requests per second, which has 20 integer decision variables.<br>
+<b>DDMOP3</b>: This problem is a minimization of latency, which has 30 integer decision variables.<br>
 
 For both tracks, the boundary of each decision variable is the range between the maximum and minimum of the corresponding dimension in the offline data.
 
-<p><b>Download links</b>: <a href="https://github.com/HandingWang/DDEO-WCCI2020">https://github.com/HandingWang/DDEO-WCCI2020</a></p>
+<p><b>Download links</b>: <a href="https://handingwang.github.io/DDEO-CEC2021/">https://handingwang.github.io/DDEO-CEC2021/</a></p>
 
 <p><b>Important Dates</b>:<br>
-For participants planning to submit a paper to the 2020 IEEE World Congress on Computational Intelligence:<br>
-Paper submission: <b><font color="red">15 Jan 2020</font></b><br>
-Notification to authors: 15 Mar 2020<br>
-Final submission: 15 Apr 2020 <br>
+For participants planning to submit a paper to the 2021 IEEE Congress on Evolutionary Computation:<br>
+Paper submission: <b><font color="red">31 Jan 2021</font></b><br>
+Notification to authors: 22 Mar 2021<br>
+Final submission: 7 Apr 2021<br>
 
 <p><b>Note</b>: You are encouraged to submit your paper to the Special Session on Data-Driven Optimization of Computationally Expensive Problems<br>
 For other participants (<b>only result entry but without a paper</b>):
-<b>Results submission deadline: <font color="red">1 May 2020</font></b></p>
+<b>Results submission deadline: <font color="red">1 May 2021</font></b></p>
 
 <p><b>Note</b>: Please send your results directly to Dr Handing Wang (<a href="mailto:hdwang@xidian.edu.cn">hdwang@xidian.edu.cn</a>) </p>
 
 <p><b>Organizers:</b>:<br>
 Handing Wang, School of Artificial Intelligence, Xidian University, China<br>
-Liang Bao, School of Software, Xidian University, China<br>
-Fei Liu, School of Aeronautics, Northwestern Polytechnical University, China<br>
-Zhonghua Han, School of Aeronautics, Northwestern Polytechnical University, China<br>
+Yanan Li, School of Marine Science and Technology, Northwestern Polytechnical University, China<br>
+Xingguang Peng,School of Marine Science and Technology, Northwestern Polytechnical University, China<br>
 Yaochu Jin, Department of Computer Science, University of Surrey, UK<br>
-</p>
-
-<p><b>Competition entries:</b>:<br>
-<p><b>Track 1: constrained single-objective optimization (aerodynamic optimization)</b>:<br>
-<b>CDDEA-DSGPR</b>: Constrained offline data-driven evolutionary optimization based on dynamic selection of Gaussian process classification, Pengfei Huang, Handing Wang, Xidian University<br>
-<b>SA-IBEA</b>: A Surrogate-Assisted Indicator-Based Evolutionary Algorithm Using Model Selection for Constrained Offline Data-Driven  Optimization, Zhening Liu, Handing Wang, Xidian University<br>
-<b>SA-2Archive</b>: A Surrogate-Assisted Indicator-Based Evolutionary Algorithm Using Model Selection with Two Archives for Constrained Offline Data-Driven Optimization, Zhening Liu, Handing Wang, Xidian University<br>
-<b>EGP-DEPSO</b>: Ensembled Genetic Programming with Differential Evolutionary Particle Swarm Optimization, Diego Rodriguez, David Alvarez, Ameena Al-sumati, Sergio Rivera, Universidad Nacional de Colombia, Khalifa University<br>
-<b>HPPSO</b>: Surrogate-Assisted Teaching Learning Based Optimization Algorithm, Weixi Chen, Jie Liu, Huachao Dong, Peng Wang, Northwestern Polytechnical University<br>
-<b>CGP-ODCO</b>: A Cotraining Method for Gaussian Process Assisted Offline Data-driven Constrained Optimization, Xilu Wang, Yaochu Jin, University of Surrey<br>
-<b>HE-DDEA</b>: Offline Data-Driven Evolutionary Optimization with Heterogeneous Ensembles , Fan Li, Liang Gao, Weiming Shen, Xiwen Cai, Huazhong University of Science and Technology<br>
-<b>DE&ACO-K</b>: DE&ACO hybrid optimization algorithm based on Kriging, Jia Xuyi, Yang Lianbo, Li Chunna, Northwestern Polytechnical University<br>
-<b>ParetoHyperNet</b>: Pareto HyperNetwork-based Optimization, Xi Lin, Qingfu Zhang, City University of Hong Kong<br>
-<b>SurroOpt</b>: Surrogate-base Optimization, Yang Zhang, Jiangbo Chi, Haodong Dang, Guanyu Meng, Chenzhou Xu, Northwestern Polytechnical University<br>
-<p><b>Track 2: integer single-objective optimization (software configuration tuning)</b>:<br>
-<b>EGP-DEPSO</b>: Ensembled Genetic Programming with Differential Evolutionary Particle Swarm Optimization, Diego Rodriguez, David Alvarez, Ameena Al-sumati, Sergio Rivera, Universidad Nacional de Colombia, Khalifa University<br>
-<b>STLBO</b>: Hybrid population-assisted PSO integer optimization, Weixi Chen, Jie Liu, Huachao Dong, Peng Wang, Northwestern Polytechnical University<br>
-<b>HE-DDEA</b>: Offline Data-Driven Evolutionary Optimization with Heterogeneous Ensembles , Fan Li, Liang Gao, Weiming Shen, Xiwen Cai, Huazhong University of Science and Technology<br>
-<b>SE-DPSO</b>: Surrogate Ensembles Assisted Discrete Particle Swarm Optimization, Xijun Huang, Shenzhen University<br>
-<b>ParetoHyperNet</b>: Pareto HyperNetwork-based Optimization, Xi Lin, Qingfu Zhang, City University of Hong Kong<br>
-<b>BDDEA-LDG</b>: Boosting data-driven evolutionary algorithm with localized data generation, ?Jian-Yu Li and Zhi-Hui Zhan, South China University of Technology<br>
-</p>
-
-<p><b>All the results can be found at</b>: <a href="https://github.com/HandingWang/DDEO-WCCI2020">https://github.com/HandingWang/DDEO-WCCI2020</a></p>
-
-<p><b><font color="red">Winer algorithms for Track 1</b>:<br>
-Winner: SurroOpt<br>
-First runner-up: ParetoHyperNet<br>
-Second runner-up: CDDEA-DSGPR</font><br>
-</p>
-
-<p><b><font color="red">Winer algorithms for Track 2</b>:<br>
-Winner: SE-DPSO<br>
-First runner-up: HE-DDEA</font><br>
 </p>
 
 </body>
